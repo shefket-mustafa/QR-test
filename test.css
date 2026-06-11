@@ -1,0 +1,48 @@
+.main-container {
+  display: flex;
+  flex-direction: column;
+  border: black;
+  border-width: 1px;
+  border-style: solid;
+  padding: 16px;
+  max-width: 320px;
+  align-items: center;
+  border-radius: 20px;
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.first-container-with-qr {
+  width: 100%;
+  margin-bottom: 24px;
+}
+.first-container-img {
+  object-fit: fill;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.second-container-text {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 24px;
+  padding-left: 16px;
+  padding-right: 16px;
+  gap: 16px;
+}
+
+.first-text {
+  color: #1f314f;
+  font-size: 22px;
+  font-weight: bold;
+  max-width: 256px;
+  flex-wrap: wrap;
+  margin: 0;
+}
+.second-text {
+  color: #68778d;
+  font-size: 15px;
+  max-width: 256px;
+  flex-wrap: wrap;
+  margin: 0;
+}
